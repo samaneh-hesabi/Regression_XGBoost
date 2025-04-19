@@ -1,0 +1,18 @@
+Regression Analysis Results
+=========================
+
+Mean Squared Error (MSE): 0.2273
+Root Mean Squared Error (RMSE): 0.4767
+Mean Absolute Error (MAE): 0.3155
+R-squared (R2): 0.8266
+
+Feature Importance:
+      Feature  Importance
+0      MedInc    0.546472
+5    AveOccup    0.149034
+7   Longitude    0.083761
+6    Latitude    0.074288
+1    HouseAge    0.065453
+2    AveRooms    0.039133
+3   AveBedrms    0.021235
+4  Population    0.020624
