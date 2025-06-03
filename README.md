@@ -1,72 +1,48 @@
-# California Housing Price Prediction with XGBoost
+# XGBoost Regression Project
 
 <div style="font-size:2.5em; font-weight:bold; text-align:center; margin-top:20px;">California Housing Price Prediction</div>
 
-This project implements a machine learning model using XGBoost to predict housing prices in California based on various features.
+# 1. Project Overview
+This project demonstrates a simple implementation of XGBoost regression for predicting housing prices in California. The code is kept minimal and focused while following best practices.
 
-# 1. Project Structure
-
-## 1.1 Directory Layout
-
+# 2. Project Structure
 ```
 .
-├── src/               # Source code files
-│   ├── predict_new_data.py  # Script for making predictions on new data
-│   └── ddd.py              # Main training script
-├── data/              # Data directory
-│   └── raw/          # Raw dataset files
-├── models/           # Trained model files
-├── notebooks/        # Jupyter notebooks for analysis
-├── docs/             # Documentation files
-│   └── project_qa.md # Project Q&A and documentation
-├── tests/            # Test files
-├── results/          # Output files
-│   ├── regression_metrics.txt  # Model performance metrics
-│   └── regression_results.png  # Visualization of results
-├── requirements.txt  # Python dependencies
-└── environment.yml   # Conda environment file
+├── xgboost_regression/
+│   ├── xgboost_housing.py     # Main regression implementation
+│   ├── README.md              # Module documentation
+│   └── housing_prediction_results.png
+├── results/                   # Directory for output files
+├── .gitignore
+├── requirements.txt           # Python dependencies
+└── README.md                 # This file
 ```
 
-# 2. Setup and Installation
+# 3. Getting Started
 
-## 2.1 Environment Setup
+## 3.1 Prerequisites
+- Python 3.7+
+- pip or conda for package management
 
+## 3.2 Installation
+1. Clone this repository
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+# 4. Usage
+Run the main script:
 ```bash
-# Using conda
-conda env create -f environment.yml
-
-# Using pip
-pip install -r requirements.txt
+python xgboost_regression/xgboost_housing.py
 ```
 
-# 3. Usage
-
-## 3.1 Training the Model
-The main training script is located in `src/ddd.py`. To train the model:
-
-```bash
-python src/ddd.py
-```
-
-## 3.2 Making Predictions
-To make predictions on new data:
-
-```bash
-python src/predict_new_data.py
-```
-
-# 4. Results
-
-Model performance metrics and visualizations can be found in the `results` directory.
-
-# 5. Documentation
-
-Detailed documentation and project Q&A can be found in the `docs` directory.
+# 5. Features
+- Simple and clear implementation of XGBoost regression
+- California housing price prediction
+- Feature importance analysis
+- Performance metrics visualization
+- Example predictions
 
 # 6. Contributing
-
-Please read through our contributing guidelines before making any changes.
-
-# 7. License
-
-[Add your license information here]
+Feel free to submit issues and enhancement requests.
